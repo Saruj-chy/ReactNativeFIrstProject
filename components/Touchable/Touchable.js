@@ -27,7 +27,7 @@ const Touchable = ({ history }) => {
       <View >
         <View style={styles.container}>
           <Button title="<==back" onPress={() => history.push('/')} />
-          <Text style={styles.appbar}> About </Text>
+          <Text style={styles.appbar}> Touchable Component </Text>
         </View>
         <Text style={styles.button}>TouchableOpacity: </Text>
         {

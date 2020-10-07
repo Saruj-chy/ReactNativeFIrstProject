@@ -11,7 +11,6 @@ const Home = ({ history }) => {
   return (
     <View style={styles.container}>
 
-
       <Button title="FlatList" onPress={() => history.push('/flatlist')} />
       <Separator />
       <Button title="Touchable Opacity" onPress={() => history.push('/touchable')} />
@@ -21,6 +20,8 @@ const Home = ({ history }) => {
       <Button title="KeybBoardAvoingView" onPress={() => history.push('/keyboard')} />
       <Separator />
       <Button title="Model" onPress={() => history.push('/model')} />
+      <Separator />
+      <Button title="user Details from Server" onPress={() => history.push('/user')} />
       <Separator />
       <Button title="About" onPress={() => history.push('/about')} />
 

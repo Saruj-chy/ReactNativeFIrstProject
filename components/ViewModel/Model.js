@@ -9,7 +9,7 @@ const Model = ({ history }) => {
     <View style={styles.body}>
       <View style={styles.container}>
         <Button title="<==back" onPress={() => history.push('/')} />
-        <Text style={styles.appbar}> FlatList </Text>
+        <Text style={styles.appbar}> Model </Text>
       </View>
 
       <Modal

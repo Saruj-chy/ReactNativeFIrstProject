@@ -9,6 +9,7 @@ import Home from './components/Home/Home';
 import BackgroundImage from './components/ImageBackground/BackgroundImage';
 import KeyboardAvoiding from './components/KeyboardAvoiding/KeyboardAvoiding';
 import Touchable from './components/Touchable/Touchable';
+import User from './components/User/User';
 import Model from './components/ViewModel/Model';
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Route exact path="/image" component={BackgroundImage} />
       <Route exact path="/keyboard" component={KeyboardAvoiding} />
       <Route exact path="/model" component={Model} />
+      <Route exact path="/user" component={User} />
       <Route path="/about" component={About} />
     </NativeRouter>
 
